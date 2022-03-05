@@ -1,0 +1,64 @@
+body
+{
+	background: #232323;
+}
+
+#container
+{
+	margin: 0 auto;
+	max-width: 600px;
+	margin-top: 20px;
+}
+
+.container
+{
+	max-width: 600px;
+}
+
+.square
+{
+	width: 30%;
+	margin : 1.66%;
+	padding-bottom: 30%;
+	float : left;
+	border-radius: 20px;
+	transition: background-color 0.5s;
+}
+
+#top
+{
+	background-color: darkcyan;
+	padding: 20px;
+	transition: background-color 0.5s;
+	font-family: 'Arial';
+}
+
+#nav
+{
+	background-color: darkblue;
+	text-align: center;
+}
+
+#nav a
+{
+	font-weight: 700;
+	color: skyblue;
+	font-size: 1.5rem;
+}
+
+#nav .link:hover a
+{
+	padding: 0 5px;
+	color :white;
+	background: brown;
+	text-decoration: none;
+	float: right;
+}
+
+#lks
+{
+	color: white;
+	font-size: 5px;
+	text-align: center;
+}
+
